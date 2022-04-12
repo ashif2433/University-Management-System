@@ -1,0 +1,90 @@
+body{
+	background-image: url('../images/17302579.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1{
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+	position: absolute;
+	top: 11%;
+	left: 35%;
+}
+h2{
+	color: #fff;
+	font-size: 36px;
+	position: absolute;
+	top: 29%;
+	right: 35%;
+}
+
+.header{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 34px;
+	
+}
+
+input[name='id']{
+	text-align: center;
+	width: 180px;
+	padding: 15px 45px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	position: absolute;
+	top: 49%;
+	right: 39%;
+}
+
+input[name='password']{
+	text-align: center;
+	width: 180px;
+	padding: 15px 45px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	position: absolute;
+	top: 62%;
+	right: 39%;
+}
+
+button[name='login']{
+	text-align: center;
+	width: 140px;
+	padding: 15px 45px;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top: 75%;
+	right: 44%;
+	background-color: #3498db;
+}
+
+button[name='login']:hover{
+	background-color: #0101DF;
+	color: white;
+	font-size: 14px;
+}
+
+
+label{
+	position: absolute;
+	top: 87%;
+	right: 42%;
+	font-family: sans-serif;
+	color: white;
+}
+
+a:link{
+	color: #ccc;
+}
+
+a:visited{
+	color: #00BFFF;
+}
+
+a:active{
+	color: #FF8000;
+}

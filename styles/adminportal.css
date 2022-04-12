@@ -1,0 +1,82 @@
+body{
+	background-image: url('../images/background1.jpg');
+	background-size: cover;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+form[name='f1']{
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 26px;
+	color: white;
+	position: absolute;
+	top: 15%;
+	left: 60%;
+}
+
+
+input{
+	text-align: center;
+	border: 1px #3498db;
+	border-radius: 10px;
+	height: 28px;
+}
+
+button[name='done']{
+	padding: 10px 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 120px;
+	background-color: #3498db;
+}
+
+button[name='stinfo']{
+	padding: 10px 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 120px;
+	background-color: #3498db;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+}
+
+button[name='tcinfo']{
+	padding: 10px 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 120px;
+	background-color: #3498db;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+
+table{
+	border-color: white;
+	color: white;
+}
+
+a{
+	font-size: 28px;
+	position: absolute;
+	top: 90%;
+	left: 5%;
+}
+
+a:link{
+	color: #ccc;
+}
+
+a:visited{
+	color: #00BFFF;
+}
+
+a:active{
+	color: #FF8000;
+}
